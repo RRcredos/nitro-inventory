@@ -1,0 +1,19 @@
+{
+  "name": "nitro-inventory",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "lint": "turbo lint",
+    "typecheck": "turbo typecheck",
+    "supabase:start": "supabase start",
+    "supabase:reset": "supabase db reset",
+    "supabase:types": "supabase gen types typescript --local > packages/types/src/database.types.ts"
+  },
+  "devDependencies": {
+    "supabase": "^2.108.0",
+    "turbo": "^2.5.0",
+    "typescript": "^5.8.0"
+  }
+}
