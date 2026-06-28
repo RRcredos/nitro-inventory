@@ -12,7 +12,8 @@ alias nwt='~/projects/nitro-inventory-wt'
 alias ndev='~/projects/nitro-inventory'
 
 # supabase
-alias migrations='pnpm exec supabase migration list'
-alias migrate='pnpm exec supabase migration up'
-alias reset='pnpm exec supabase db reset'
-alias migratenew='pnpm exec supabase migration new'
+alias dbmigrations='pnpm exec supabase migration list'
+alias dbmigrate='pnpm exec supabase migration up'
+alias dbreset='pnpm exec supabase db reset'
+alias dbmigratenew='pnpm exec supabase migration new'
+alias dbstart='pnpm exec supabase start'
